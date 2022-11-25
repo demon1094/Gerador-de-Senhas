@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'MerriWeather Sans', sans-serif;
+}
+
+body,html {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  font-size: 4rem;
+  text-shadow: 0 0 10px #00bc84;
+  margin-bottom: 2rem;
+  color: #20DFA5;
+}
+
+.container-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.size {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+#slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 20px;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  background: #DFDFDF;
+}
+
+.button-cta {
+  width: 80%;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  color: #fff;
+  background: #40BF4A;
+}
+
+.button-cta:hover {
+  background: #0fc61e;
+}
+
+.container-password {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.generated-password {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+#password {
+  width: 70%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.765);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#value {
+  color: #20DFA5;
+}
+
+.copy-password {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  user-select: none;
+  color: rgba(255, 255, 255, 0.765);
+  background: rgba(0, 0, 0, 0.4);
+}
